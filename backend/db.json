@@ -1,29 +1,10 @@
 {
   "books": [
-   
     {
-      "id": "2",
-      "title": "Noma",
-      "author": "Shree",
-      "price": "588"
-    },
-    {
-      "id": "3",
-      "title": "Ken",
-      "author": "Kane",
-      "price": "785"
-    },
-    {
-      "id": "5",
-      "title": "Her",
-      "author": "Ammy",
-      "price": "896"
-    },
-    {
-      "id": "6",
-      "title": "jd",
-      "author": "ANi",
-      "price": "233"
+      "id": "1",
+      "title": "SORA",
+      "author": "Jane",
+      "price": "188"
     }
   ]
 }

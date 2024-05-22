@@ -26,7 +26,7 @@ function Book(props){
                         price: updatedPrice
                     }
 
-                    fetch(`http://localhost:8000/books/${props.id}`, {
+                    fetch(`https://book-data-v10b.onrender.com/books/${props.id}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json'

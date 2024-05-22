@@ -6,13 +6,9 @@ function useFetch(url) {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch(url)
+        fetch("https://book-data-v10b.onrender.com/books")
             .then(response => {
-/*
-                if (!response.ok) {
-                    throw new Error('Failed to fetch');
-                }
-*/                
+            
                 return response.json();
             })
             .then(data => {
