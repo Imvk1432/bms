@@ -36,13 +36,16 @@ function Book(props){
                     .then(()=>{
                         let newBooks = [...props.books];
 
-                    newBooks.map(
-                        (element, idx)=>{
-                            if(element.id === book.id) {
-                                newBooks.splice(idx, 1, book);
+                        newBooks = newBooks.map(
+                            (element, idx) => {
+                                if (element.id === book.id) {
+                                    return book; // Return the updated book
+                                } else {
+                                    return element; // Return the original element
+                                }
                             }
-                        }
-                    )
+                        );
+                        
             
                     props.setBooks(newBooks);
                     setIsUpdating(false);
