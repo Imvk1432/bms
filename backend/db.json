@@ -1,11 +1,6 @@
 {
   "books": [
-    {
-      "id": "1",
-      "title": "Jany",
-      "author": "Nane",
-      "price": "1551"
-    },
+   
     {
       "id": "2",
       "title": "Noma",

@@ -5,6 +5,7 @@ import useFetch from '../useFetch';
 import './Home.css'
 
 const Home = () => {
+    console.log("Home Rendered.")
     let { data } = useFetch('http://localhost:8000/books');
 
     let [books, setBooks] = useState(null);
