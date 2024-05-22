@@ -1,0 +1,28 @@
+.Main-Container{
+    width: 70vw;
+    background-color: pink;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 15px;
+
+} 
+
+.content-div {
+    width: 95%;
+    padding-left: 30px;
+}
+
+
+
+
+/*
+  flex-direction = column
+  main-axis = vertical
+  cross-axis = horizontal
+
+  justify-content = main axis
+  justify-content = center
+*/
