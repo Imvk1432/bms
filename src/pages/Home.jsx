@@ -6,7 +6,7 @@ import './Home.css'
 
 const Home = () => {
     console.log("Home Rendered.")
-    let { data } = useFetch('http://localhost:8000/books');
+    let { data } = useFetch('https://book-data-v10b.onrender.com/books');
 
     let [books, setBooks] = useState(null);
 
@@ -17,7 +17,7 @@ const Home = () => {
 
 
     function handleRemove(id) {
-        fetch(`http://localhost:8000/books/${id}`, {
+        fetch(`https://book-data-v10b.onrender.com/books/${id}`, {
             method: 'DELETE'
         })
             .then(() => {
@@ -34,7 +34,7 @@ const Home = () => {
     }
 
     function handleSubmit(book) {
-        fetch('http://localhost:8000/books', {
+        fetch('https://book-data-v10b.onrender.com/books', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
